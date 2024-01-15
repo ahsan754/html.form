@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Contact Us Form</h1>
+    <form action="https://www.greatfrontend.com/api/questions/contact-form" method="POST">
+       
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+        </div>
+        <br>
+
+        <div>
+            Contact Number: <input types="number" name="contact" id="" placeholder="Enter your contact number">
+        </div>
+        <br>
+
+        <div>
+            Email: <input types="email" name="email" id="" placeholder="Eenter your mail">
+        </div>
+        <br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+
+    </div>
+   
+
+    
+</body>
+</html>
